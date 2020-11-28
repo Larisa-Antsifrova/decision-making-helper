@@ -15,7 +15,6 @@ body {
 .container {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   width: 700px;
   height: 700px;
   padding: 50px;
