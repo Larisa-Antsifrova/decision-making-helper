@@ -3,8 +3,9 @@ import answers from "./answers.js";
 //  References to DOM elements
 const containerRef = document.querySelector(".container");
 const answerRef = document.querySelector(".answer");
-let message = "Ask me a question and press here.";
-answerRef.textContent = message;
+const startMessage = "Ask me a question and press here.";
+
+answerRef.textContent = startMessage;
 
 // Functions
 function randomIndex(array) {
@@ -19,5 +20,11 @@ function getAnswer(array) {
 // Adding event listeners
 // Adding event listener on the contaner
 containerRef.addEventListener("click", () => {
-  answerRef.textContent = getAnswer(answers);
+  // console.log("before: ", answerRef.textContent);
+  if (answerRef.textContent == "ASK LATER!") {
+    answerRef.textContent = "LIKE REALLY LATER. I AM SERIOUS!";
+  } else {
+    answerRef.textContent = getAnswer(answers);
+  }
+  // console.log("after: ", answerRef.textContent);
 });
