@@ -7,4 +7,5 @@ export default [
   "LEARN JS!",
   "BETTER COME TO CROISSANTS!",
   "ТУТ МОГЛА БЫ БЫТЬ ВАША РЕКЛАМА!",
+  "ASK ANOTHER QUESTION",
 ];
