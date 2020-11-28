@@ -3,7 +3,7 @@ import answers from "./answers.js";
 //  References to DOM elements
 const containerRef = document.querySelector(".container");
 const answerRef = document.querySelector(".answer");
-const startMessage = "Ask me a question and press here.";
+const startMessage = "Ask me a yes/no question and press here.";
 
 answerRef.textContent = startMessage;
 
