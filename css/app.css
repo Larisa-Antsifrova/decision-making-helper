@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 0;
+
+  background-color: rgb(12, 12, 82);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  width: 700px;
+  height: 700px;
+  padding: 50px;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+}
+
+.window {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: rgb(12, 12, 82);
+}
+
+.answer {
+  align-self: center;
+  font-size: 40px;
+  color: wheat;
+}
