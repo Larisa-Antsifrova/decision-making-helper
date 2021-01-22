@@ -20,11 +20,9 @@ function getAnswer(array) {
 // Adding event listeners
 // Adding event listener on the contaner
 containerRef.addEventListener("click", () => {
-  // console.log("before: ", answerRef.textContent);
   if (answerRef.textContent == "ASK LATER!") {
     answerRef.textContent = "LIKE REALLY LATER. I AM SERIOUS!";
   } else {
     answerRef.textContent = getAnswer(answers);
   }
-  // console.log("after: ", answerRef.textContent);
 });
